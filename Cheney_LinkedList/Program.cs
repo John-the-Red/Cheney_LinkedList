@@ -1,5 +1,10 @@
 ﻿using System;
-
+// John Cheney
+// IT113
+// NOTES: I had trouble trying to figure out how to set the "Search" option back to Head without resetting the entire list to null if the word didn't exist so I made a temp Node to hold the return to avoid that happening
+// I originally tried to do the same with the remove method, but after trying a few things I had to ask for help from Ethan on what would make it work. I got a mostly workable version where the only item that can't be deleted
+// is the first item in the Linked list. 
+// BEHAVIORS NOT IMPLEMENTED AND WHY: Cannot delete the first Node in the LinkedList. All other behaviors implemented.
 namespace Cheney_LinkedList
 {
     class Program
